@@ -1,0 +1,120 @@
+
+
+@media screen and (max-width: 640px){
+  .title{
+    width: 80% !important;
+    left: calc(10%) !important;
+  }
+  h1{
+    height: 78px !important;
+  }
+  #tryAgain{
+    height: 78px !important;
+  }
+}
+
+#somedialog{
+  z-index: 2000;
+}
+
+
+body{
+  font-family: 'calibri', 'sans-serif';
+  background-color: #fff;
+}
+
+
+.topo{
+  width: 100%;
+  position: fixed;
+  min-height: 80px;
+  top: 15px;
+  transition: top .75s;
+  z-index: 2;
+}
+
+.title{
+  position: absolute;
+  text-align: center;
+  width: 440px;
+  left: calc(50% - 220px);
+  text-rendering: optimizeLegibility;
+}
+
+.texts-title{
+  float: left;
+  height: 100%;
+  width: 80%;
+}
+h1{
+  height: 39px;
+  margin: 0px !important;
+  border-left: #f22 4px solid;
+  border-radius: 0.2em 0 0 0.2em;
+  font-size: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+}
+
+
+
+.tentativas{
+  clear: both;
+}
+
+#tryAgain{
+  word-wrap: break-word;
+  border-radius: 0 0.4em 0.4em 0;
+  float: right;
+  min-height: 39px;
+  height: 100%;
+  width: 20%;
+  outline: none;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: text-indent .25s, background-color .5s;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+#tryAgain:hover{
+  text-indent: 10%;
+  background-color: #000;
+}
+
+
+.container-imagens {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 90px;
+}
+
+.container-imagens div {
+  flex: 1 1 340px;
+}
+.morango {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  transition: opacity .5s;
+}
+.morango-enable{
+  cursor: pointer;
+}
+.morango-enable:hover{
+  opacity: .5;
+}
+
+.disabled{
+  -webkit-filter: grayscale(85%); 
+          filter: grayscale(85%);
+  cursor: default;
+}
+
+
