@@ -3,7 +3,7 @@
 ![Language](https://badgen.net/badge/language/javascript/blue)
 
 > This is a mini game made with HTML5, CSS3, Javascript, jQuery
-> Is running at [https://julio-cesar-development.github.io/find-strawberry-game](https://julio-cesar-development.github.io/find-strawberry-game)
+> Is running at [https://juliocesarscheidt.github.io/find-strawberry-game/](https://juliocesarscheidt.github.io/find-strawberry-game/)
 
 -----------
 
